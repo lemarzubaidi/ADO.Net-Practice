@@ -8,7 +8,7 @@ namespace ConsoleApp19
 {
     internal class Program
     {
-        static string connectionString = "Server=.;Database=ContactsDB;User Id=sa;Password=sa123456";
+        static string connectionString = "Server=.;Database=ContactsDB;User Id=your;Password=your";
         static void SearchContactsStartsWith(string StartWith)
         {
             SqlConnection connection = new SqlConnection(connectionString);
