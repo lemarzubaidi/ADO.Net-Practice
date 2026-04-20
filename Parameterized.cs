@@ -6,7 +6,7 @@ using System.Net.Configuration;
 
 public class Program
 {
-    static string connectionString = "Server=.;Database=ContactsDB;User Id=sa;Password=sa123456;";
+    static string connectionString = "Server=.;Database=ContactsDB;User Id=Your_ID;Password=Your_Password;";
     static void PrintAllContactsWithFirstName(string FirstName)
     {
         SqlConnection connection=new SqlConnection(connectionString);
