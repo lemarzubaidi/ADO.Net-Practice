@@ -8,7 +8,7 @@ namespace ConsoleApp20
 {
     internal class Program
     {
-        static string connectingString = "Server=.;Database=ContactsDB;User Id=sa;Password=sa123456;";
+        static string connectingString = "Server=.;Database=ContactsDB;User Id=Your_User;Password=UR-Password;";
         static string GetFirstName(int ContactID)
         {
             string FirstName = "";
