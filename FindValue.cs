@@ -10,7 +10,7 @@ namespace ConsoleApp22
 {
     internal class Program
     {
-        static string ConnectionString = "Server=.;Database=contactsDB;User Id=sa;Password=sa123456;";
+        static string ConnectionString = "Server=.;Database=contactsDB;User Id=User;Password=Password;";
         static bool FindContactByID(int ContactID,ref stContact ContactInfo)
         {
           bool isFound=false;
