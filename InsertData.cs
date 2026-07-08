@@ -10,7 +10,7 @@ namespace ConsoleApp23
 {
     internal class Program
     {
-        static string connectionstring = "Server=.;Database=ContactsDB;User Id=sa;Password=sa123456;";
+        static string connectionstring = "Server=.;Database=ContactsDB;User Id=User;Password=Password;";
         static void AddNewcontact(stContact newContact)
         {
             SqlConnection connection=new SqlConnection(connectionstring);
