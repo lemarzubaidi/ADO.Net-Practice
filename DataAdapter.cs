@@ -8,7 +8,7 @@ class Program
     {
 
         string connectionString =
-             "Server=.;Database=HR_Database;User Id=sa;Password=123456;";
+             "Server=.;Database=HR_Database;User Id=Your_UserName;Password=Your_Pass;";
 
         // Create a new DataSet
         DataSet dataSet = new DataSet();
